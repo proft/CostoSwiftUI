@@ -8,14 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("isFirstLogin") private var isFirstLogin: Bool = true
+    @AppStorage("isAppLockEnabled") private var isAppLockEnabled: Bool = false
+    @AppStorage("isAppLockedInBackground") private var isAppLockedInBackground: Bool = false
+
+    @State private var activeTab: Tab = .recents
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $activeTab) {
+            RecentsView()
+                .tag(Tab.recents).tabItem { Tab.recents.tabContent }
+            
+            SearchView()
+                .tag(Tab.filters).tabItem { Tab.filters.tabContent }
+            
+            ChartsView()
+                .tag(Tab.charts).tabItem { Tab.charts.tabContent }
+            
+            SettingsView()
+                .tag(Tab.settings).tabItem { Tab.settings.tabContent }
         }
-        .padding()
+        .tint(Constants.appTint)
+        .sheet(isPresented: $isFirstLogin, content: {
+            IntroView().interactiveDismissDisabled()
+        })
     }
 }
 

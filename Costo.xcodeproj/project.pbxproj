@@ -7,18 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3106B3162BC04B0100FFD8E2 /* NewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106B3152BC04B0100FFD8E2 /* NewExpenseView.swift */; };
+		3106B3182BC0586600FFD8E2 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106B3172BC0586600FFD8E2 /* Transaction.swift */; };
+		3120E2732B2F89690076EF25 /* RecentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120E2722B2F89690076EF25 /* RecentsView.swift */; };
+		3120E2752B2F89760076EF25 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120E2742B2F89760076EF25 /* SearchView.swift */; };
+		3120E2772B2F897D0076EF25 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120E2762B2F897D0076EF25 /* SettingsView.swift */; };
+		3120E2792B2F89870076EF25 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120E2782B2F89870076EF25 /* ChartsView.swift */; };
+		31419DB82BD30DBD0041F58B /* FilterTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31419DB72BD30DBD0041F58B /* FilterTransactionsView.swift */; };
 		318A79B52B2F38EA0006FB9A /* CostoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A79B42B2F38EA0006FB9A /* CostoApp.swift */; };
 		318A79B72B2F38EA0006FB9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A79B62B2F38EA0006FB9A /* ContentView.swift */; };
 		318A79B92B2F38EA0006FB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318A79B82B2F38EA0006FB9A /* Assets.xcassets */; };
 		318A79BC2B2F38EA0006FB9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318A79BB2B2F38EA0006FB9A /* Preview Assets.xcassets */; };
+		318A79C52B2F39810006FB9A /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A79C42B2F39810006FB9A /* IntroView.swift */; };
+		318A79C82B2F3AC20006FB9A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A79C72B2F3AC20006FB9A /* Constants.swift */; };
+		318A79CC2B2F3EA70006FB9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A79CB2B2F3EA70006FB9A /* HomeView.swift */; };
+		31CBFBD82BBDF59800A8F9DB /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CBFBD72BBDF59800A8F9DB /* DateFilterView.swift */; };
+		31CD38712BAF007F0088A495 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CD38702BAF007F0088A495 /* TransactionCardView.swift */; };
+		31CD38732BAF03A80088A495 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CD38722BAF03A80088A495 /* SwipeAction.swift */; };
+		31DD51EE2BE28C370021FDD6 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD51ED2BE28C370021FDD6 /* ChartModel.swift */; };
+		31DD51F62BE2E0720021FDD6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DD51F52BE2E0720021FDD6 /* WidgetKit.framework */; };
+		31DD51F82BE2E0720021FDD6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DD51F72BE2E0720021FDD6 /* SwiftUI.framework */; };
+		31DD51FB2BE2E0720021FDD6 /* StatsCardViewBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD51FA2BE2E0720021FDD6 /* StatsCardViewBundle.swift */; };
+		31DD51FD2BE2E0720021FDD6 /* StatsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD51FC2BE2E0720021FDD6 /* StatsCardView.swift */; };
+		31DD51FF2BE2E0730021FDD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DD51FE2BE2E0730021FDD6 /* Assets.xcassets */; };
+		31DD52032BE2E0730021FDD6 /* StatsCardViewExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 31DD51F32BE2E0720021FDD6 /* StatsCardViewExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		31DD52082BE2E34A0021FDD6 /* FilterTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31419DB72BD30DBD0041F58B /* FilterTransactionsView.swift */; };
+		31DD52092BE2E3740021FDD6 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE71A02B30CDC1005B3111 /* Date+Extensions.swift */; };
+		31DD520A2BE2E3840021FDD6 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE719E2B30C8B7005B3111 /* View+Extensions.swift */; };
+		31DD520B2BE2E3AC0021FDD6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE71A22B30CF32005B3111 /* CardView.swift */; };
+		31DD520D2BE2E3E30021FDD6 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD520C2BE2E3E30021FDD6 /* Category.swift */; };
+		31DD520E2BE2E3EF0021FDD6 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD520C2BE2E3E30021FDD6 /* Category.swift */; };
+		31DD520F2BE2E4300021FDD6 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106B3172BC0586600FFD8E2 /* Transaction.swift */; };
+		31DD52112BE2E46C0021FDD6 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD52102BE2E46C0021FDD6 /* TintColor.swift */; };
+		31DD52122BE2E46E0021FDD6 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD52102BE2E46C0021FDD6 /* TintColor.swift */; };
+		31DD52132BE2E48E0021FDD6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A79C72B2F3AC20006FB9A /* Constants.swift */; };
+		31DE719F2B30C8B7005B3111 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE719E2B30C8B7005B3111 /* View+Extensions.swift */; };
+		31DE71A12B30CDC1005B3111 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE71A02B30CDC1005B3111 /* Date+Extensions.swift */; };
+		31DE71A32B30CF32005B3111 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE71A22B30CF32005B3111 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		31DD52012BE2E0730021FDD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318A79A92B2F38E90006FB9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DD51F22BE2E0720021FDD6;
+			remoteInfo = StatsCardViewExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31DD52072BE2E0730021FDD6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				31DD52032BE2E0730021FDD6 /* StatsCardViewExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3106B3152BC04B0100FFD8E2 /* NewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseView.swift; sourceTree = "<group>"; };
+		3106B3172BC0586600FFD8E2 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		3120E2722B2F89690076EF25 /* RecentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsView.swift; sourceTree = "<group>"; };
+		3120E2742B2F89760076EF25 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3120E2762B2F897D0076EF25 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3120E2782B2F89870076EF25 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		31419DB72BD30DBD0041F58B /* FilterTransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTransactionsView.swift; sourceTree = "<group>"; };
 		318A79B12B2F38EA0006FB9A /* Costo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Costo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		318A79B42B2F38EA0006FB9A /* CostoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostoApp.swift; sourceTree = "<group>"; };
 		318A79B62B2F38EA0006FB9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		318A79B82B2F38EA0006FB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		318A79BB2B2F38EA0006FB9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		318A79C42B2F39810006FB9A /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		318A79C72B2F3AC20006FB9A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		318A79CB2B2F3EA70006FB9A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		31CBFBD72BBDF59800A8F9DB /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		31CD38702BAF007F0088A495 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		31CD38722BAF03A80088A495 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
+		31DD51ED2BE28C370021FDD6 /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		31DD51F32BE2E0720021FDD6 /* StatsCardViewExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StatsCardViewExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DD51F52BE2E0720021FDD6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		31DD51F72BE2E0720021FDD6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		31DD51FA2BE2E0720021FDD6 /* StatsCardViewBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCardViewBundle.swift; sourceTree = "<group>"; };
+		31DD51FC2BE2E0720021FDD6 /* StatsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCardView.swift; sourceTree = "<group>"; };
+		31DD51FE2BE2E0730021FDD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31DD52002BE2E0730021FDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DD520C2BE2E3E30021FDD6 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		31DD52102BE2E46C0021FDD6 /* TintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColor.swift; sourceTree = "<group>"; };
+		31DD52142BE2E4D70021FDD6 /* Costo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Costo.entitlements; sourceTree = "<group>"; };
+		31DD52152BE2E5220021FDD6 /* StatsCardViewExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StatsCardViewExtension.entitlements; sourceTree = "<group>"; };
+		31DE719E2B30C8B7005B3111 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		31DE71A02B30CDC1005B3111 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		31DE71A22B30CF32005B3111 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +114,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31DD51F02BE2E0720021FDD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DD51F82BE2E0720021FDD6 /* SwiftUI.framework in Frameworks */,
+				31DD51F62BE2E0720021FDD6 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		318A79A82B2F38E90006FB9A = {
 			isa = PBXGroup;
 			children = (
+				31DD52152BE2E5220021FDD6 /* StatsCardViewExtension.entitlements */,
 				318A79B32B2F38EA0006FB9A /* Costo */,
+				31DD51F92BE2E0720021FDD6 /* StatsCardView */,
+				31DD51F42BE2E0720021FDD6 /* Frameworks */,
 				318A79B22B2F38EA0006FB9A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				318A79B12B2F38EA0006FB9A /* Costo.app */,
+				31DD51F32BE2E0720021FDD6 /* StatsCardViewExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +149,12 @@
 		318A79B32B2F38EA0006FB9A /* Costo */ = {
 			isa = PBXGroup;
 			children = (
+				31DD52142BE2E4D70021FDD6 /* Costo.entitlements */,
+				318A79CA2B2F3E8C0006FB9A /* Home */,
+				318A79C92B2F3E850006FB9A /* Intro */,
+				318A79C62B2F3AB80006FB9A /* Helpers */,
+				318A79C32B2F39700006FB9A /* Views */,
+				318A79C22B2F39620006FB9A /* Models */,
 				318A79B42B2F38EA0006FB9A /* CostoApp.swift */,
 				318A79B62B2F38EA0006FB9A /* ContentView.swift */,
 				318A79B82B2F38EA0006FB9A /* Assets.xcassets */,
@@ -67,6 +171,80 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		318A79C22B2F39620006FB9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3106B3172BC0586600FFD8E2 /* Transaction.swift */,
+				31DD51ED2BE28C370021FDD6 /* ChartModel.swift */,
+				31DD520C2BE2E3E30021FDD6 /* Category.swift */,
+				31DD52102BE2E46C0021FDD6 /* TintColor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		318A79C32B2F39700006FB9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31DE71A22B30CF32005B3111 /* CardView.swift */,
+				31CD38702BAF007F0088A495 /* TransactionCardView.swift */,
+				31CBFBD72BBDF59800A8F9DB /* DateFilterView.swift */,
+				3106B3152BC04B0100FFD8E2 /* NewExpenseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		318A79C62B2F3AB80006FB9A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				318A79C72B2F3AC20006FB9A /* Constants.swift */,
+				31DE719E2B30C8B7005B3111 /* View+Extensions.swift */,
+				31DE71A02B30CDC1005B3111 /* Date+Extensions.swift */,
+				31CD38722BAF03A80088A495 /* SwipeAction.swift */,
+				31419DB72BD30DBD0041F58B /* FilterTransactionsView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		318A79C92B2F3E850006FB9A /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				318A79C42B2F39810006FB9A /* IntroView.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		318A79CA2B2F3E8C0006FB9A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				318A79CB2B2F3EA70006FB9A /* HomeView.swift */,
+				3120E2722B2F89690076EF25 /* RecentsView.swift */,
+				3120E2742B2F89760076EF25 /* SearchView.swift */,
+				3120E2762B2F897D0076EF25 /* SettingsView.swift */,
+				3120E2782B2F89870076EF25 /* ChartsView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		31DD51F42BE2E0720021FDD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31DD51F52BE2E0720021FDD6 /* WidgetKit.framework */,
+				31DD51F72BE2E0720021FDD6 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31DD51F92BE2E0720021FDD6 /* StatsCardView */ = {
+			isa = PBXGroup;
+			children = (
+				31DD51FA2BE2E0720021FDD6 /* StatsCardViewBundle.swift */,
+				31DD51FC2BE2E0720021FDD6 /* StatsCardView.swift */,
+				31DD51FE2BE2E0730021FDD6 /* Assets.xcassets */,
+				31DD52002BE2E0730021FDD6 /* Info.plist */,
+			);
+			path = StatsCardView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +255,34 @@
 				318A79AD2B2F38EA0006FB9A /* Sources */,
 				318A79AE2B2F38EA0006FB9A /* Frameworks */,
 				318A79AF2B2F38EA0006FB9A /* Resources */,
+				31DD52072BE2E0730021FDD6 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				31DD52022BE2E0730021FDD6 /* PBXTargetDependency */,
 			);
 			name = Costo;
 			productName = Costo;
 			productReference = 318A79B12B2F38EA0006FB9A /* Costo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		31DD51F22BE2E0720021FDD6 /* StatsCardViewExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DD52042BE2E0730021FDD6 /* Build configuration list for PBXNativeTarget "StatsCardViewExtension" */;
+			buildPhases = (
+				31DD51EF2BE2E0720021FDD6 /* Sources */,
+				31DD51F02BE2E0720021FDD6 /* Frameworks */,
+				31DD51F12BE2E0720021FDD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatsCardViewExtension;
+			productName = StatsCardViewExtension;
+			productReference = 31DD51F32BE2E0720021FDD6 /* StatsCardViewExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,11 +291,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1510;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					318A79B02B2F38EA0006FB9A = {
 						CreatedOnToolsVersion = 15.1;
+					};
+					31DD51F22BE2E0720021FDD6 = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
@@ -116,6 +316,7 @@
 			projectRoot = "";
 			targets = (
 				318A79B02B2F38EA0006FB9A /* Costo */,
+				31DD51F22BE2E0720021FDD6 /* StatsCardViewExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +331,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31DD51F12BE2E0720021FDD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DD51FF2BE2E0730021FDD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +347,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				318A79B72B2F38EA0006FB9A /* ContentView.swift in Sources */,
+				31DE71A12B30CDC1005B3111 /* Date+Extensions.swift in Sources */,
+				3120E2772B2F897D0076EF25 /* SettingsView.swift in Sources */,
+				3120E2732B2F89690076EF25 /* RecentsView.swift in Sources */,
+				3120E2792B2F89870076EF25 /* ChartsView.swift in Sources */,
+				31CD38712BAF007F0088A495 /* TransactionCardView.swift in Sources */,
+				3106B3182BC0586600FFD8E2 /* Transaction.swift in Sources */,
+				31DD52112BE2E46C0021FDD6 /* TintColor.swift in Sources */,
+				31419DB82BD30DBD0041F58B /* FilterTransactionsView.swift in Sources */,
+				31DD51EE2BE28C370021FDD6 /* ChartModel.swift in Sources */,
+				31CD38732BAF03A80088A495 /* SwipeAction.swift in Sources */,
 				318A79B52B2F38EA0006FB9A /* CostoApp.swift in Sources */,
+				31DD520D2BE2E3E30021FDD6 /* Category.swift in Sources */,
+				31CBFBD82BBDF59800A8F9DB /* DateFilterView.swift in Sources */,
+				3120E2752B2F89760076EF25 /* SearchView.swift in Sources */,
+				318A79C52B2F39810006FB9A /* IntroView.swift in Sources */,
+				318A79CC2B2F3EA70006FB9A /* HomeView.swift in Sources */,
+				3106B3162BC04B0100FFD8E2 /* NewExpenseView.swift in Sources */,
+				31DE719F2B30C8B7005B3111 /* View+Extensions.swift in Sources */,
+				31DE71A32B30CF32005B3111 /* CardView.swift in Sources */,
+				318A79C82B2F3AC20006FB9A /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DD51EF2BE2E0720021FDD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DD52082BE2E34A0021FDD6 /* FilterTransactionsView.swift in Sources */,
+				31DD52092BE2E3740021FDD6 /* Date+Extensions.swift in Sources */,
+				31DD520F2BE2E4300021FDD6 /* Transaction.swift in Sources */,
+				31DD51FD2BE2E0720021FDD6 /* StatsCardView.swift in Sources */,
+				31DD520A2BE2E3840021FDD6 /* View+Extensions.swift in Sources */,
+				31DD52132BE2E48E0021FDD6 /* Constants.swift in Sources */,
+				31DD520B2BE2E3AC0021FDD6 /* CardView.swift in Sources */,
+				31DD51FB2BE2E0720021FDD6 /* StatsCardViewBundle.swift in Sources */,
+				31DD52122BE2E46E0021FDD6 /* TintColor.swift in Sources */,
+				31DD520E2BE2E3EF0021FDD6 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31DD52022BE2E0730021FDD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31DD51F22BE2E0720021FDD6 /* StatsCardViewExtension */;
+			targetProxy = 31DD52012BE2E0730021FDD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		318A79BD2B2F38EA0006FB9A /* Debug */ = {
@@ -267,8 +520,10 @@
 		318A79C02B2F38EA0006FB9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Costo/Costo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Costo/Preview Content\"";
@@ -296,8 +551,10 @@
 		318A79C12B2F38EA0006FB9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Costo/Costo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Costo/Preview Content\"";
@@ -322,6 +579,62 @@
 			};
 			name = Release;
 		};
+		31DD52052BE2E0730021FDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StatsCardViewExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZSVG66847;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StatsCardView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StatsCardView;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.proft.Costo.StatsCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31DD52062BE2E0730021FDD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StatsCardViewExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZSVG66847;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StatsCardView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StatsCardView;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.proft.Costo.StatsCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +652,15 @@
 			buildConfigurations = (
 				318A79C02B2F38EA0006FB9A /* Debug */,
 				318A79C12B2F38EA0006FB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DD52042BE2E0730021FDD6 /* Build configuration list for PBXNativeTarget "StatsCardViewExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DD52052BE2E0730021FDD6 /* Debug */,
+				31DD52062BE2E0730021FDD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
